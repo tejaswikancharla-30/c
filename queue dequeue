@@ -1,0 +1,6 @@
+void dequeue() {
+    if (front == -1 || front > rear)
+        printf("Queue Underflow\n");
+    else
+        printf("Deleted element = %d\n", queue[front++]);
+}
